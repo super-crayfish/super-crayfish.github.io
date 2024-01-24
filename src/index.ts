@@ -34,9 +34,9 @@ export default {
 
 /**
  * static files (404.html, sw.js, conf.js)
- * const ASSET_URL = "https://super-crayfish.github.io/ghproxy/";
+ * 
  */
-const ASSET_URL = "https://my-worker.yangpeiqing20099505.workers.dev/";
+const ASSET_URL = "https://super-crayfish.github.io/ghproxy/";
 // 前缀，如果自定义路由为example.com/gh/*，将PREFIX改为 '/gh/'，注意，少一个杠都会错！
 const PREFIX = "/";
 // 分支文件使用jsDelivr镜像的开关，0为关闭，默认关闭
