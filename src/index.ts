@@ -104,6 +104,7 @@ function checkUrl(u: string) {
  */
 async function fetchHandler(req:Request): Promise<Response> {
     const urlStr = req.url;
+    console.log(urlStr);
     const urlObj = new URL(urlStr);
     let path = urlObj.searchParams.get("q");
     if (path) {
